@@ -26,7 +26,7 @@
   }
   &__ellipse-decoration {
     border-radius: 50%;
-    background-color: #cffafe;
+    background-color: var(--green-palid);
     position: absolute;
     z-index: -1;
     width: 400px;
@@ -45,11 +45,6 @@
   &__ellipse-container {
     overflow: hidden;
     position: relative;
-  }
-  &__ellipse {
-    position: absolute;
-    top: 1px;
-    z-index: -1;
   }
   @media only screen and (min-width: $screen-desktop-min) {
     width: 50%;

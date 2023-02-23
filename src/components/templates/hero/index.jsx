@@ -3,7 +3,7 @@ import mockups from "../../../assets/images/mockups.svg";
 
 const Hero = () => {
   return (
-    <div className="mockups-section__ellipse-container">
+    <div className="ellipse__container">
       <Navbar />
       <header className="hero-content-section padding-section ">
         <section className="left-section">
@@ -22,7 +22,7 @@ const Hero = () => {
           />
         </section>
       </header>
-      <div className="mockups-section__ellipse-decoration" />
+      <div className="ellipse__decoration" />
     </div>
   );
 };

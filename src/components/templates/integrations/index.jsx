@@ -11,8 +11,6 @@ import tool7Icon from "../../../assets/images/tools/tool-7.svg";
 const Integrations = () => {
   return (
     <section className="mt-74 integrations-section padding-section">
-      {/* <div className="mockups-section__ellipse-decoration" /> */}
-
       <Divider />
       <h2 className="mt-48 text-center">Integrate with your favorite tools</h2>
       <p className="mt-8 text-center subtitle-size">

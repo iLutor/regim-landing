@@ -6,3 +6,28 @@ hr {
   width: 100%;
   margin-top: 16px;
 }
+
+.ellipse {
+  &__container {
+    overflow: hidden;
+    position: relative;
+  }
+  &__decoration {
+    border-radius: 50%;
+    background-color: var(--green-palid);
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    top: 45%;
+    left: 20%;
+    @media only screen and (min-width: $screen-tablet-min) {
+      width: 700px;
+      height: 700px;
+    }
+    @media only screen and (min-width: $screen-desktop-min) {
+      top: -48%;
+      left: 60%;
+    }
+  }
+}
