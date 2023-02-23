@@ -7,9 +7,8 @@ const Features = () => {
   return (
     <section className="features-section padding-section">
       <Divider />
-
-      <h2 className="mt-48">All-in-one Event Platform </h2>
-      <p className="mt-8 features-section__subtitle subtitle-size">
+      <h2 className="mt-48 text-center">All-in-one Event Platform </h2>
+      <p className="mt-8 subtitle-size text-center">
         Deliver an exceptional event experience
       </p>
       <img
