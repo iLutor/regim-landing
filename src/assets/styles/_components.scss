@@ -40,6 +40,8 @@
 }
 
 .mockups-section {
+  //   max-width: 592px;
+  padding: 80px 0;
   &__illustration {
     width: 100%;
   }
@@ -50,7 +52,7 @@
     z-index: -1;
     width: 400px;
     height: 400px;
-    top: 30%;
+    top: 44%;
     left: 20%;
     @media only screen and (min-width: $screen-tablet-min) {
       width: 700px;
@@ -91,5 +93,116 @@
   flex-direction: row;
   @media only screen and (max-width: $screen-desktop-min) {
     flex-direction: column;
+  }
+}
+
+.features-section {
+  h2 {
+    text-align: center;
+  }
+  &__subtitle {
+    text-align: center;
+  }
+  &__illustration {
+    width: 100%;
+  }
+  &__action {
+    display: flex;
+    justify-content: center;
+    margin-top: -26px;
+  }
+}
+
+.button-play {
+  background-color: var(--accent);
+  color: var(--dark);
+  border: none;
+  box-shadow: 0px 8px 16px -4px rgba(28, 44, 64, 0.08);
+  border-radius: 100px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.feature-list-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  &__item {
+    display: flex;
+    gap: 16px;
+    img {
+      max-width: 56px;
+      @media only screen and (min-width: $screen-tablet-min) {
+        max-width: 88px;
+      }
+    }
+  }
+}
+
+.integrations-section {
+  &__title {
+    text-align: center;
+  }
+  &__subtitle {
+    text-align: center;
+  }
+  &__tools {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+  &__tool-background {
+    width: 56px;
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 4px 12px 24px rgba(28, 44, 64, 0.08);
+    border-radius: 100px;
+
+    @media only screen and (min-width: $screen-tablet-min) {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  &__image {
+    transform: translateY(50%) translateX(50%);
+    max-width: 50%;
+  }
+}
+
+.call-to-action-section {
+  background-color: var(--dark);
+  &__title {
+    color: var(--accent);
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  &__content {
+    text-align: center;
+    color: var(--accent);
+  }
+  &__action {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.footer-section {
+  color: var(--palid-grey);
+  background-color: var(--dark);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  &__logo {
+    max-width: 32px;
+  }
+  &__text-last-word {
+    color: var(--primary-palid);
   }
 }

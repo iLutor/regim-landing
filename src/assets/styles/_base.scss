@@ -9,13 +9,31 @@ $screen-mobile-min: 320px;
 $screen-tablet-min: 768px;
 $screen-desktop-min: 992px;
 
-h1 {
+hr {
+  border-left: none;
+  border-top: 1px solid #e5e7eb;
+}
+
+h1,
+h2 {
   font-weight: 600;
   color: var(--dark);
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -0.01em;
   margin: 0;
+}
+
+h3 {
+  font-weight: 600;
+  color: var(--dark);
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 18px;
 }
 
 p {
@@ -25,12 +43,28 @@ p {
   margin: 0;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
+
 .mt-16 {
   margin-top: 16px;
 }
 
+.mt-24 {
+  margin-top: 24px;
+}
+
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 .mt-68 {
@@ -41,4 +75,24 @@ p {
   @media only screen and (min-width: $screen-desktop-min) {
     margin-top: 206px;
   }
+}
+
+.mt-72 {
+  margin-top: 72px;
+}
+
+.mt-74 {
+  margin-top: 74px;
+}
+
+.pt-64 {
+  padding-top: 64px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-64 {
+  padding-bottom: 64px;
 }
