@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer className="footer-section padding-section text-center">
       <div className="footer-section__illustrations">
-        <Divider className="footer-section__divider"/>
+        <Divider className="hr--half" />
         <img src={logomark} className="footer-section__logo" alt="logmark" />
-        <Divider className="footer-section__divider" />
+        <Divider className="hr--half" />
       </div>
       <span className="mt-24 footer-section__text">
         © RegiM 2022. Made with love by{" "}

@@ -24,28 +24,28 @@
   &__illustration {
     width: 100%;
   }
-  &__ellipse-decoration {
-    border-radius: 50%;
-    background-color: var(--green-palid);
-    position: absolute;
-    z-index: -1;
-    width: 400px;
-    height: 400px;
-    top: 45%;
-    left: 20%;
-    @media only screen and (min-width: $screen-tablet-min) {
-      width: 700px;
-      height: 700px;
-    }
-    @media only screen and (min-width: $screen-desktop-min) {
-      top: -48%;
-      left: 60%;
-    }
-  }
-  &__ellipse-container {
-    overflow: hidden;
-    position: relative;
-  }
+  // &__ellipse-decoration {
+  //   border-radius: 50%;
+  //   background-color: var(--green-palid);
+  //   position: absolute;
+  //   z-index: -1;
+  //   width: 400px;
+  //   height: 400px;
+  //   top: 45%;
+  //   left: 20%;
+  //   @media only screen and (min-width: $screen-tablet-min) {
+  //     width: 700px;
+  //     height: 700px;
+  //   }
+  //   @media only screen and (min-width: $screen-desktop-min) {
+  //     top: -48%;
+  //     left: 60%;
+  //   }
+  // }
+  // &__ellipse-container {
+  //   overflow: hidden;
+  //   position: relative;
+  // }
   @media only screen and (min-width: $screen-desktop-min) {
     width: 50%;
   }
@@ -90,6 +90,7 @@
     gap: 16px;
     img {
       max-width: 56px;
+      align-self: flex-start;
       @media only screen and (min-width: $screen-tablet-min) {
         max-width: 88px;
       }

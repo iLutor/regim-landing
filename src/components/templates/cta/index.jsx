@@ -1,6 +1,6 @@
 const CallToAction = () => {
   return (
-    <section className="call-to-action-section mt-72 padding-section">
+    <section className="call-to-action-section padding-section">
       <h3 className="pt-64 call-to-action-section__title text-center">
         Create your event with RegiM
       </h3>
