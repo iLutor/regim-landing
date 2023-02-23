@@ -1,21 +1,10 @@
 .hr {
-  // border-left: none;
-  // border-right: none;
-  // border-bottom: none;
-  // border-top: 1px solid var(--neutral);
-  // width: 100%;
-  // margin: 16px 0 0 0;
-  // margin-top: 16px;
-  // margin-right: 0;
-  // margin-bottom: 0;
-  // margin-left: 0;
   width: 100%;
-
   border-left: none;
   border-right: none;
   border-top: none;
   border-bottom: 1px solid var(--neutral);
-  margin: 0 0 16px 0;
+  margin: 0 0 24px 0;
   &--half {
     max-width: 45%;
     opacity: 0.1;
@@ -35,8 +24,8 @@
     z-index: -1;
     width: 400px;
     height: 400px;
-    top: 45%;
-    left: 20%;
+    top: 44%;
+    left: 16%;
     @media only screen and (min-width: $screen-tablet-min) {
       width: 700px;
       height: 700px;
@@ -60,8 +49,7 @@
     z-index: -1;
     width: 304px;
     height: 304px;
-    top: -31%;
-    transform: translateY(0%) translateX(2%);
+    transform: translate(5%, -202%);
     @media only screen and (min-width: $screen-tablet-min) {
       width: 624px;
       height: 624px;

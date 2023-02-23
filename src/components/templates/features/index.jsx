@@ -18,7 +18,7 @@ const Features = () => {
       />
       <div className="features-section__action ">
         <button className="button-play">
-          <img src={playIcon} className="" alt="play-icon" />
+          <img src={playIcon} alt="play-icon" />
           See it in action (2 min)
         </button>
       </div>

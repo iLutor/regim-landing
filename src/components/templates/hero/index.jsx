@@ -7,7 +7,7 @@ const Hero = () => {
       <Navbar />
       <header className="hero-content-section padding-section ">
         <section className="left-section">
-          <h1 className="mt-68">Event Registration Reimagined</h1>
+          <h1 className="mt-48">Event Registration Reimagined</h1>
           <p className="mt-16 subtitle-size">
             Manage your event registrations hassle free and without any
             dependency with the technical team. Isn’t it sounds amazing?
