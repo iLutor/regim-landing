@@ -52,7 +52,7 @@
     z-index: -1;
     width: 400px;
     height: 400px;
-    top: 44%;
+    top: 45%;
     left: 20%;
     @media only screen and (min-width: $screen-tablet-min) {
       width: 700px;
@@ -146,12 +146,6 @@
 }
 
 .integrations-section {
-  &__title {
-    text-align: center;
-  }
-  &__subtitle {
-    text-align: center;
-  }
   &__tools {
     display: flex;
     gap: 32px;
@@ -179,12 +173,10 @@
   background-color: var(--dark);
   &__title {
     color: var(--accent);
-    text-align: center;
     font-size: 30px;
     line-height: 40px;
   }
   &__content {
-    text-align: center;
     color: var(--accent);
   }
   &__action {
@@ -193,14 +185,36 @@
   }
 }
 
+.divider {
+  width: 100%;
+  height: 1px;
+  align-self: center;
+}
+
+hr {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: 1px solid #e5e7eb;
+  width: 100%;
+  margin-top: 16px;
+}
+
 .footer-section {
   color: var(--palid-grey);
   background-color: var(--dark);
-  text-align: center;
   display: flex;
   flex-direction: column;
+  &__illustrations {
+    display: flex;
+    justify-content: center;
+  }
   &__logo {
     max-width: 32px;
+  }
+  &__divider {
+    max-width: 45%;
+    opacity: 0.1;
   }
   &__text-last-word {
     color: var(--primary-palid);

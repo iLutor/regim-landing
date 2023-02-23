@@ -9,10 +9,10 @@ $screen-mobile-min: 320px;
 $screen-tablet-min: 768px;
 $screen-desktop-min: 992px;
 
-hr {
-  border-left: none;
-  border-top: 1px solid #e5e7eb;
-}
+// hr {
+//   border-left: none;
+//   border-top: 1px solid #e5e7eb;
+// }
 
 h1,
 h2 {
@@ -32,7 +32,11 @@ h3 {
   margin: 0;
 }
 
-.subtitle {
+.text-center {
+  text-align: center;
+}
+
+.subtitle-size {
   font-size: 18px;
 }
 

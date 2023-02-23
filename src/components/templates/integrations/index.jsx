@@ -1,3 +1,4 @@
+import Divider from "components/atoms/divider";
 import IntegrationItem from "components/atoms/integration-item";
 import tool1Icon from "../../../assets/images/tools/tool-1.svg";
 import tool2Icon from "../../../assets/images/tools/tool-2.svg";
@@ -10,11 +11,11 @@ import tool7Icon from "../../../assets/images/tools/tool-7.svg";
 const Integrations = () => {
   return (
     <section className="mt-74 integrations-section padding-section">
-      <hr />
-      <h2 className="mt-48 integrations-section__title">
-        Integrate with your favorite tools
-      </h2>
-      <p className="mt-8 integrations-section__subtitle subtitle">
+      {/* <div className="mockups-section__ellipse-decoration" /> */}
+
+      <Divider />
+      <h2 className="mt-48 text-center">Integrate with your favorite tools</h2>
+      <p className="mt-8 text-center subtitle-size">
         Connect RegiM with your most favorite sales and marketing tools
       </p>
       <div className="mt-40 integrations-section__tools">

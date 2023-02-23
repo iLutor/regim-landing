@@ -1,3 +1,4 @@
+import Divider from "components/atoms/divider";
 import FeatureList from "components/organisms/feature-list";
 import playIcon from "../../../assets/images/play-icon.svg";
 import features from "../../../assets/images/video-thumbnail.png";
@@ -5,9 +6,10 @@ import features from "../../../assets/images/video-thumbnail.png";
 const Features = () => {
   return (
     <section className="features-section padding-section">
-      <hr />
+      <Divider />
+
       <h2 className="mt-48">All-in-one Event Platform </h2>
-      <p className="mt-8 features-section__subtitle subtitle">
+      <p className="mt-8 features-section__subtitle subtitle-size">
         Deliver an exceptional event experience
       </p>
       <img

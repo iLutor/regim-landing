@@ -1,11 +1,14 @@
 import logomark from "../../../assets/images/logomark.svg";
+import Divider from "components/atoms/divider";
 
 const Footer = () => {
   return (
-    <footer className="footer-section padding-section">
-      <span>
+    <footer className="footer-section padding-section text-center">
+      <div className="footer-section__illustrations">
+        <Divider className="footer-section__divider"/>
         <img src={logomark} className="footer-section__logo" alt="logmark" />
-      </span>
+        <Divider className="footer-section__divider" />
+      </div>
       <span className="mt-24 footer-section__text">
         © RegiM 2022. Made with love by{" "}
         <span className="footer-section__text-last-word">Landify </span>
