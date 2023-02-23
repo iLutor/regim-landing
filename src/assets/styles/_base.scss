@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Archivo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$screen-mobile-min: 320px;
+$screen-tablet-min: 768px;
+$screen-desktop-min: 992px;
+
+h1 {
+  font-weight: 600;
+  color: var(--dark);
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+p {
+  font-weight: 400;
+  color: var(--dark-grey);
+  line-height: 24px;
+  margin: 0;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-68 {
+  margin-top: 68px;
+  @media only screen and (min-width: $screen-tablet-min) {
+    margin-top: 100px;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    margin-top: 206px;
+  }
+}

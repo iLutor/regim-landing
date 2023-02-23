@@ -1,5 +1,95 @@
+.button {
+  font-weight: 600;
+  color: var(--accent);
+  background-color: var(--primary);
+  border-radius: 6px;
+  padding: 10px 16px;
+  border: none;
+  &__md {
+    height: 40px;
+    width: 148px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__lg {
+    height: 48px;
+    width: 164px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.padding-section {
+  padding-left: 20px;
+  padding-right: 20px;
+  @media only screen and (min-width: $screen-tablet-min) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    padding-left: 192px;
+    padding-right: 192px;
+  }
+}
+
+.left-section {
+  width: 100%;
+  @media only screen and (min-width: $screen-desktop-min) {
+    max-width: 592px;
+  }
+}
+
+.mockups-section {
+  &__illustration {
+    width: 100%;
+  }
+  &__ellipse-decoration {
+    border-radius: 50%;
+    background-color: #cffafe;
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    top: 30%;
+    left: 20%;
+    @media only screen and (min-width: $screen-tablet-min) {
+      width: 700px;
+      height: 700px;
+    }
+    @media only screen and (min-width: $screen-desktop-min) {
+      top: -48%;
+      left: 60%;
+    }
+  }
+  &__ellipse-container {
+    overflow: hidden;
+    position: relative;
+  }
+  &__ellipse {
+    position: absolute;
+    top: 1px;
+    z-index: -1;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    width: 50%;
+  }
+}
+
 .navbar-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  &__logo {
+    height: 32px;
+    margin-left: -2px;
+  }
+}
+
+.hero-content-section {
+  display: flex;
+  flex-direction: row;
+  @media only screen and (max-width: $screen-desktop-min) {
+    flex-direction: column;
+  }
 }
