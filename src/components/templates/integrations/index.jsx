@@ -15,10 +15,10 @@ const Integrations = () => {
         <Divider />
         <div className="integrations-section__wrapper">
           <div className="integrations-section__content">
-            <h2 className="mt-47-89 p-0-60 text-center">
+            <h2 className="mt-47-89 p-0-60 integrations-section__content--text-left text-center">
               Integrate with your favorite tools
             </h2>
-            <p className="mt-8-24 text-center subtitle-size">
+            <p className="mt-8-24 p-0-60 integrations-section__content--text-left text-center subtitle-size">
               Connect RegiM with your most favorite sales and marketing tools
             </p>
           </div>

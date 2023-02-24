@@ -141,7 +141,7 @@
   }
   &__content {
     @media only screen and (min-width: $screen-desktop-min) {
-      h2 {
+      &--text-left {
         text-align: left;
       }
     }
