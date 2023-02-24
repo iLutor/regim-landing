@@ -13,23 +13,27 @@ const Integrations = () => {
     <section className="integrations-section padding-section">
       <div className="semi-ellipse__container">
         <Divider />
-        <h2 className="mt-47 p-0-60 text-center">
-          Integrate with your favorite tools
-        </h2>
-        <p className="mt-8-24 text-center subtitle-size">
-          Connect RegiM with your most favorite sales and marketing tools
-        </p>
-        <div className="integrations-section__container">
-          <div className="mt-40 integrations-section__tools">
-            <IntegrationItem src={tool1Icon} />
-            <IntegrationItem src={tool2Icon} />
-            <IntegrationItem src={tool3Icon} />
-            <IntegrationItem src={tool4Icon} />
+        <div className="integrations-section__wrapper">
+          <div className="integrations-section__content">
+            <h2 className="mt-47-89 p-0-60 text-center">
+              Integrate with your favorite tools
+            </h2>
+            <p className="mt-8-24 text-center subtitle-size">
+              Connect RegiM with your most favorite sales and marketing tools
+            </p>
           </div>
-          <div className="mt-32-72 integrations-section__tools pb-72-96">
-            <IntegrationItem src={tool5Icon} />
-            <IntegrationItem src={tool6Icon} />
-            <IntegrationItem src={tool7Icon} />
+          <div className="integrations-section__container">
+            <div className="mt-40-47 integrations-section__tools">
+              <IntegrationItem src={tool1Icon} />
+              <IntegrationItem src={tool2Icon} />
+              <IntegrationItem src={tool3Icon} />
+              <IntegrationItem src={tool4Icon} />
+            </div>
+            <div className="mt-32-72 integrations-section__tools pb-72-96-236">
+              <IntegrationItem src={tool5Icon} />
+              <IntegrationItem src={tool6Icon} />
+              <IntegrationItem src={tool7Icon} />
+            </div>
           </div>
         </div>
         <div className="semi-ellipse__decoration" />

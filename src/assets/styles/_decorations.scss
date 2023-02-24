@@ -59,8 +59,9 @@
       height: 624px;
     }
     @media only screen and (min-width: $screen-desktop-min) {
-      top: -90%;
-      transform: translateY(0%) translateX(5%);
+      width: 760px;
+      height: 760px;
+      transform: translate(-75%, -50%);
     }
   }
 }

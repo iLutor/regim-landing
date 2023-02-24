@@ -132,8 +132,25 @@
 }
 
 .integrations-section {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: $screen-desktop-min) {
+      flex-direction: row;
+    }
+  }
+  &__content {
+    @media only screen and (min-width: $screen-desktop-min) {
+      h2 {
+        text-align: left;
+      }
+    }
+  }
   &__container {
     padding: 0px 7.5px;
+    @media only screen and (min-width: $screen-desktop-min) {
+      padding: 0px 20px 0px 0px;
+    }
   }
   &__tools {
     display: flex;

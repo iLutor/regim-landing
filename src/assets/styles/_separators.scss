@@ -34,8 +34,18 @@
   margin-top: 40px;
 }
 
-.mt-47 {
+.mt-40-47 {
+  margin-top: 40px;
+  @media only screen and (min-width: $screen-desktop-min) {
+    margin-top: 47px;
+  }
+}
+
+.mt-47-89 {
   margin-top: 47px;
+  @media only screen and (min-width: $screen-desktop-min) {
+    margin-top: 89px;
+  }
 }
 
 .mt-48 {
@@ -101,10 +111,13 @@
   }
 }
 
-.pb-72-96 {
+.pb-72-96-236 {
   padding-bottom: 72px;
   @media only screen and (min-width: $screen-tablet-min) {
     padding-bottom: 96px;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    padding-bottom: 236px;
   }
 }
 
