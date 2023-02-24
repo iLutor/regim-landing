@@ -7,19 +7,19 @@ import mockups from "../../../assets/images/mockups.svg";
 const Hero = () => {
   gsap.registerPlugin(ScrollTrigger);
   const timeline = gsap.timeline({
-    defaults: { ease: Power4.easeIn, stagger: 0.3 },
+    defaults: { ease: Power4.easeOut, stagger: 0.3 },
   });
 
   useEffect(() => {
     const title = document.querySelectorAll(".load-animation");
-    let from = timeline.from(title, {
+    let to = timeline.to(title, { opacity: 1, duration: 1.5 });
+    timeline.from(title, {
       opacity: 0,
-      duration: 3,
+      duration: 2,
       immediateRender: false,
     });
-    let to = timeline.to(title, { opacity: 1, duration: 3});
+
     return () => {
-      from.kill();
       to.kill();
     };
   }, [timeline]);
