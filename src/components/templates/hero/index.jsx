@@ -1,27 +1,16 @@
 import React, { useEffect } from "react";
 import { gsap, Power4 } from "gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Navbar from "components/molecules/navbar";
 import mockups from "../../../assets/images/mockups.svg";
 
 const Hero = () => {
-  gsap.registerPlugin(ScrollTrigger);
   const timeline = gsap.timeline({
-    defaults: { ease: Power4.easeOut, stagger: 0.3 },
+    defaults: { duration: 2, ease: Power4.easeOut, stagger: 0.3 },
   });
 
   useEffect(() => {
     const title = document.querySelectorAll(".load-animation");
-    let to = timeline.to(title, { opacity: 1, duration: 1.5 });
-    timeline.from(title, {
-      opacity: 0,
-      duration: 2,
-      immediateRender: false,
-    });
-
-    return () => {
-      to.kill();
-    };
+    timeline.to(title, { opacity: 1 });
   }, [timeline]);
 
   return (
@@ -48,7 +37,7 @@ const Hero = () => {
           />
         </section>
       </header>
-      <div className="ellipse__decoration pulser" />
+      <div className="load-animation ellipse__decoration pulser" />
     </div>
   );
 };
