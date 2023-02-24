@@ -13,10 +13,10 @@ const Integrations = () => {
     <section className="integrations-section padding-section">
       <div className="semi-ellipse__container">
         <Divider />
-        <h2 className="mt-47 text-center">
+        <h2 className="mt-47 p-0-60 text-center">
           Integrate with your favorite tools
         </h2>
-        <p className="mt-8 text-center subtitle-size">
+        <p className="mt-8-24 text-center subtitle-size">
           Connect RegiM with your most favorite sales and marketing tools
         </p>
         <div className="integrations-section__container">
@@ -26,7 +26,7 @@ const Integrations = () => {
             <IntegrationItem src={tool3Icon} />
             <IntegrationItem src={tool4Icon} />
           </div>
-          <div className="mt-40 integrations-section__tools pb-72">
+          <div className="mt-32-72 integrations-section__tools pb-72-96">
             <IntegrationItem src={tool5Icon} />
             <IntegrationItem src={tool6Icon} />
             <IntegrationItem src={tool7Icon} />

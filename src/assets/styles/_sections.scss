@@ -6,8 +6,21 @@
     padding-right: 40px;
   }
   @media only screen and (min-width: $screen-desktop-min) {
-    padding-left: 192px;
-    padding-right: 192px;
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+}
+
+.padding-section-small {
+  padding-left: 20px;
+  padding-right: 20px;
+  @media only screen and (min-width: $screen-tablet-min) {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    padding-left: 112px;
+    padding-right: 112px;
   }
 }
 
@@ -84,17 +97,13 @@
     display: flex;
     gap: 32px;
     justify-content: center;
+    @media only screen and (min-width: $screen-tablet-min) {
+      gap: 72px;
+    }
   }
   &__tool-background {
     min-width: 56px;
     min-height: 56px;
-    // max-width: 56px;
-    // max-height: 56px;
-
-    // min-width: 56px;
-    // min-height: 56px;
-    // width: 56px;
-    // height: 56px;
     background: #ffffff;
     box-shadow: 4px 12px 24px rgba(28, 44, 64, 0.08);
     border-radius: 100px;
@@ -117,12 +126,20 @@
     font-size: 30px;
     line-height: 40px;
     letter-spacing: -0.01em;
+    @media only screen and (min-width: $screen-tablet-min) {
+      font-size: 36px;
+      line-height: 48px;
+    }
   }
   &__content {
     color: var(--accent);
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.01em;
+    @media only screen and (min-width: $screen-tablet-min) {
+      font-size: 18px;
+      line-height: 28px;
+    }
   }
   &__action {
     display: flex;
@@ -147,6 +164,8 @@
   }
   &__logo {
     max-width: 48px;
+    min-height: 48px;
+    padding: 0 24px;
   }
   &__divider {
     max-width: 45%;

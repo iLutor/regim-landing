@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Archivo", sans-serif;
+  font-family: "Archivo", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +12,11 @@ h2 {
   line-height: 48px;
   letter-spacing: -0.01em;
   margin: 0;
+
+  @media only screen and (min-width: $screen-tablet-min) {
+    font-size: 48px;
+    line-height: 60px;
+  }
 }
 
 h3 {
