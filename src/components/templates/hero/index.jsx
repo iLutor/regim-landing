@@ -5,7 +5,7 @@ import mockups from "../../../assets/images/mockups.svg";
 
 const Hero = () => {
   const timeline = gsap.timeline({
-    defaults: { duration: 2, ease: Power4.easeOut, stagger: 0.3 },
+    defaults: { duration: 2, ease: Power4.easeOut, stagger: 0.8 },
   });
 
   useEffect(() => {

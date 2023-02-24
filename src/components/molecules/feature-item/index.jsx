@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const FeatureItem = ({ src, name, content }) => {
   return (
     <div className="load-animation feature-list-section__item">
@@ -11,3 +13,9 @@ const FeatureItem = ({ src, name, content }) => {
 };
 
 export default FeatureItem;
+
+FeatureItem.propTypes = {
+  src: PropTypes.node.isRequired,
+  name: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+};

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const IntegrationItem = ({ src }) => {
   return (
     <div className="integrations-section__tool-background">
@@ -11,3 +13,7 @@ const IntegrationItem = ({ src }) => {
 };
 
 export default IntegrationItem;
+
+IntegrationItem.propTypes = {
+  src: PropTypes.node.isRequired,
+};
