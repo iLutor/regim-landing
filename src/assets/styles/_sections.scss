@@ -11,19 +11,6 @@
   }
 }
 
-.padding-section-small {
-  padding-left: 20px;
-  padding-right: 20px;
-  @media only screen and (min-width: $screen-tablet-min) {
-    padding-left: 72px;
-    padding-right: 72px;
-  }
-  @media only screen and (min-width: $screen-desktop-min) {
-    padding-left: 112px;
-    padding-right: 112px;
-  }
-}
-
 .left-section {
   width: 100%;
   @media only screen and (min-width: $screen-tablet-min) {
