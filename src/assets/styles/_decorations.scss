@@ -29,10 +29,12 @@
     @media only screen and (min-width: $screen-tablet-min) {
       width: 700px;
       height: 700px;
+      top: 26%;
+      left: 18%;
     }
     @media only screen and (min-width: $screen-desktop-min) {
-      top: -48%;
-      left: 60%;
+      top: -15%;
+      left: 59%;
     }
   }
 }

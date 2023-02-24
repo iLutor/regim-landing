@@ -26,19 +26,23 @@
 
 .left-section {
   width: 100%;
-  @media only screen and (min-width: $screen-desktop-min) {
+  @media only screen and (min-width: $screen-tablet-min) {
     max-width: 592px;
   }
 }
 
 .mockups-section {
-  //   max-width: 592px;
   padding: 88px 0 80px 0;
   &__illustration {
     width: 100%;
+    max-width: 592px;
   }
   @media only screen and (min-width: $screen-desktop-min) {
     width: 50%;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    padding: 52px 0 80px 0;
+    padding-left: 32px;
   }
 }
 
@@ -56,6 +60,7 @@
 .hero-content-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   @media only screen and (max-width: $screen-desktop-min) {
     flex-direction: column;
   }

@@ -36,6 +36,15 @@
   margin-top: 48px;
 }
 
+.mt-48-80-186 {
+  margin-top: 48px;
+  @media only screen and (min-width: $screen-tablet-min) {
+    margin-top: 80px;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    margin-top: 186px;
+  }
+}
 .mt-48-96 {
   margin-top: 48px;
   @media only screen and (min-width: $screen-tablet-min) {
