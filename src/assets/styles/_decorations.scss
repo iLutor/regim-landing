@@ -29,7 +29,7 @@
     @media only screen and (min-width: $screen-tablet-min) {
       width: 700px;
       height: 700px;
-      top: 26%;
+      top: 32%;
       left: 18%;
     }
     @media only screen and (min-width: $screen-desktop-min) {
@@ -51,12 +51,12 @@
     z-index: -1;
     width: 304px;
     height: 304px;
-    transform: translate(5%, -202%);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
     @media only screen and (min-width: $screen-tablet-min) {
       width: 624px;
       height: 624px;
-      top: -52%;
-      transform: translateY(0%) translateX(5%);
     }
     @media only screen and (min-width: $screen-desktop-min) {
       top: -90%;

@@ -96,8 +96,11 @@
   }
 }
 
-.pb-74 {
-  padding-bottom: 74px;
+.pb-73-145 {
+  padding-bottom: 73px;
+  @media only screen and (min-width: $screen-tablet-min) {
+    padding-bottom: 145px;
+  }
 }
 
 .p-0-60 {

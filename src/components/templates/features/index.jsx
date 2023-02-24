@@ -5,7 +5,7 @@ import features from "../../../assets/images/video-thumbnail.svg";
 
 const Features = () => {
   return (
-    <section className="features-section padding-section pb-74">
+    <section className="features-section padding-section pb-73-145">
       <Divider />
       <h2 className="mt-48-96 text-center">All-in-one Event Platform </h2>
       <p className="mt-8 subtitle-size text-center">
