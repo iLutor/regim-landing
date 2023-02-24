@@ -8,7 +8,7 @@ import featureIconAdd from "../../../assets/images/feature-icon-add.svg";
 
 const FeatureList = () => {
   return (
-    <div className="feature-list-section mt-50">
+    <div className="feature-list-section mt-50-84">
       <FeatureItem
         src={featureIconEvent}
         name="Event Metrics"

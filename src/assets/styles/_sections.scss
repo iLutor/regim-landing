@@ -62,29 +62,61 @@
 }
 
 .features-section {
+  &__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
   &__illustration {
     width: 100%;
+    border-radius: 6px;
+    @media only screen and (min-width: $screen-tablet-min) {
+      max-width: 768px;
+    }
   }
   &__action {
     display: flex;
     justify-content: center;
-    margin-top: -26px;
+    margin-top: -22px;
   }
 }
 
 .feature-list-section {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   gap: 48px;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+  @media only screen and (min-width: $screen-desktop-min) {
+    grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+  }
+  @media only screen and (min-width: $screen-tablet-min) {
+    row-gap: 80px;
+    column-gap: 32px;
+  }
+  @media only screen and (min-width: $screen-desktop-min) {
+    column-gap: 80px;
+  }
   &__item {
     display: flex;
     gap: 16px;
+    @media only screen and (min-width: $screen-tablet-min) {
+      flex-direction: column;
+      align-self: center;
+    }
     img {
       max-width: 56px;
       align-self: flex-start;
       @media only screen and (min-width: $screen-tablet-min) {
         max-width: 88px;
+        align-self: center;
       }
+    }
+  }
+  &__message {
+    @media only screen and (min-width: $screen-tablet-min) {
+      text-align: center;
     }
   }
 }
