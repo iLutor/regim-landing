@@ -36,7 +36,7 @@ const Integrations = () => {
             </div>
           </div>
         </div>
-        <div className="semi-ellipse__decoration" />
+        <div className="semi-ellipse__decoration pulser" />
       </div>
     </section>
   );

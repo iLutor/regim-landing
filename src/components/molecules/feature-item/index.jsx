@@ -1,6 +1,6 @@
 const FeatureItem = ({ src, name, content }) => {
   return (
-    <div className="feature-list-section__item">
+    <div className="load-animation feature-list-section__item">
       <img src={src} alt={name} />
       <div className="feature-list-section__message">
         <h3>{name}</h3>

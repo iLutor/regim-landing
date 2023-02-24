@@ -1,3 +1,4 @@
+@import "_config.scss";
 @import "_colors.scss";
 @import "_breakpoints.scss";
 @import "_separators.scss";
@@ -5,7 +6,3 @@
 @import "_sections.scss";
 @import "_buttons.scss";
 @import "_decorations.scss";
-
-body {
-  margin: 0;
-}

@@ -20,6 +20,10 @@
   text-align: center;
 }
 
+.button:hover {
+  background-color: var(--primary-accent);
+}
+
 .button-play {
   background-color: var(--accent);
   color: var(--dark);
@@ -44,4 +48,8 @@
       min-height: 24px;
     }
   }
+}
+
+.button-play:hover {
+  background-color: var(--primary-palid);
 }
