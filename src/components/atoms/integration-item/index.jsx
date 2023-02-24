@@ -1,10 +1,10 @@
-const IntegrationItem = ({src}) => {
+const IntegrationItem = ({ src }) => {
   return (
     <div className="integrations-section__tool-background">
       <img
         className="integrations-section__image"
         src={src}
-        alt={src}
+        alt="Intregation tool"
       />
     </div>
   );
