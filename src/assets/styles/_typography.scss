@@ -29,6 +29,10 @@ h2 {
     font-size: 48px;
     line-height: 60px;
   }
+  @media only screen and (min-width: $screen-desktop-min) {
+    font-size: 56px;
+    line-height: 72px;
+  }
 }
 
 h3 {

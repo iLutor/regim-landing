@@ -12,6 +12,12 @@
 .mt-16 {
   margin-top: 16px;
 }
+.mt-16-24 {
+  margin-top: 16px;
+  @media only screen and (min-width: $screen-desktop-min) {
+    margin-top: 24px;
+  }
+}
 
 .mt-24 {
   margin-top: 24px;
@@ -77,16 +83,22 @@
   margin-top: 74px;
 }
 
-.pt-64 {
+.pt-64-112 {
   padding-top: 64px;
+  @media only screen and (min-width: $screen-desktop-min) {
+    padding-top: 112px;
+  }
 }
 
 .pb-40 {
   padding-bottom: 40px;
 }
 
-.pb-64 {
+.pb-64-112 {
   padding-bottom: 64px;
+  @media only screen and (min-width: $screen-desktop-min) {
+    padding-bottom: 112px;
+  }
 }
 
 .pb-72-96 {

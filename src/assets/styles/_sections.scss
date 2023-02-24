@@ -163,6 +163,10 @@
 
 .call-to-action-section {
   background-color: var(--dark);
+  &__wrapper-text {
+    display: flex;
+    justify-content: center;
+  }
   &__title {
     color: var(--accent);
     font-size: 30px;
@@ -172,12 +176,17 @@
       font-size: 36px;
       line-height: 48px;
     }
+    @media only screen and (min-width: $screen-desktop-min) {
+      font-size: 48px;
+      line-height: 60px;
+    }
   }
   &__content {
     color: var(--accent);
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.01em;
+    max-width: 800px;
     @media only screen and (min-width: $screen-tablet-min) {
       font-size: 18px;
       line-height: 28px;
@@ -194,6 +203,14 @@
   background-color: var(--dark);
   display: flex;
   flex-direction: column;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: $screen-desktop-min) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
   &__text {
     font-weight: 500;
     font-size: 14px;
